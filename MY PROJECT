@@ -1,0 +1,117 @@
+<!Doctype HTML>
+<html>
+<head>
+<title>Strength of Materials</title>
+<style>
+body
+{
+	font-family:Times New Roman;
+}
+h1
+{
+	text-align:center;
+	color:white;
+	border:1px solid black;
+	background-color:blue;
+	font-size:35px;
+}
+h2
+{
+	text-align:center;
+	color:white;
+	border:1px solid black;
+	background-color:blue;
+	font-size:30px
+}
+h5
+{
+	color:blue;
+	font-size:25px
+}
+p,li,dl
+{
+	font-size:20px;
+}
+img
+{
+	border:2px solid black;
+	width:500px;
+	height:500px;
+}
+</style>
+</head>
+
+<body>
+<h1>CHAPTER 1. SIMPLE STRESSES AND STRAINS</h1>
+<h2><b>1.1. STRENGTH OF MATERIALS</b></h2>
+<p>It means when a force is acting on a body, due to cohesion of molecules the material the body resists deformation, the resistence by which the material of the body opposes deformation is called Strength of Materials</p>
+<h2><b>1.2. STRESS</b></h2>
+<p>The force of resistance offered by a body per unit area is called stress</p>
+<p>&sigma;=P/A <br>here<br>&sigma; is stress<br>P is Force<br>A is Area </p>
+<h5><ins>Units of stress</ins></h5>
+<p> In S.I units Force is Expressed as N and Area as m<sup>2</sup> and is denoted by &sigma;, so units of stress are <br><br>N/m<sup>2</sup></p>
+<h5><ins>1.2.1. Types</ins></h5>
+<p>
+<ol> 
+	<li>Tensile stress - expansion denoted by &sigma;<sub>t</sub>.</li>
+<br>
+	<img src="tensile stress.jpg" alt="tensile stresses"></img>
+<br><br>
+	<li>Compressive stress -Compression denoted by &sigma;<sub>c</sub></li>
+<br>
+	<img src="compressive stress.jpg" alt="tensile stresses"></img>
+<br><br>
+	<li>Shear stress - Tangential stress denoted by &tau;</li>
+<br>
+	<img src="shear stress.jpg" alt="tensile stresses"></img>
+<br><br>
+</ol>
+</p>
+<h2><b>1.3. STRAIN</b></h2>
+<p>Ratio of change in dimension to original dimension of body is called strain and is denoted by 'e'. It is dimensionless unit</p>
+<h5><ins>1.3.1. Types</ins></h5>
+<p>
+<ol>
+	<li>Tensile Strain - corresponding to tensile stress denoted by 'e<sub>t</sub>'</li>
+	<li>Compressive Strain - corresponding to compressive stress denoted by 'e<sub>c</sub>'</li>
+	<li>Shear Strain - corresponding to shear stress denoted by '&phi;'</li>
+</ol>
+</p>
+<br><br>
+<p>Large quantities are represented by Kilo, Mega, Giga, Tera
+<ol>
+<dl>
+	<dt>1. Kilo --------K</dt>
+	<dd>- 10<sup>3</sup><dd>
+	<dt>2. Mega --------M</dt>
+	<dd>- 10<sup>6</sup><dd>
+	<dt>3. Giga --------G</dt>
+	<dd>- 10<sup>9</sup></dd>
+	<dt>4. Terra --------T</dt>
+	<dd>- 10<sup>12</sup></dd>
+</dl>
+</ol>
+<p>Small quantities are represented by milli, micro, nano, pico</p>
+<ol>
+	<li> milli ---- m ----10<sup>-3</sup></li>
+	<li> micro ---- &micro; ----10<sup>-6</sup></li>
+	<li> nano ---- &eta; ----10<sup>-9</sup></li>
+	<li> pico ---- p ----10<sup>-12</sup></li>
+</ol>
+</p>
+<h2>1.4. Elastic limit and Elasticity</h2>
+<p>It is defined as when a load is applied on a body it gets deformed and regains its normal size after removal of force, it occurs till certain limit after that limit it gets deformed completely, the limit till which it opposes deformation is called elastic limit and its property is called elasticity.</p>
+<h2>1.5. Hookes law</h2>
+<p>It states that when the material is loaded within elastic limit stress is proportional to strain.This means ratio of stress to its corresponding strain is constant and this constant is called Elasticity constant, denoted by E or G.<br> E=Elastic modulus and <br>G=Rigidity modulus</p>
+<p><ins>Elastic modulus</ins> means ratio of Tensile stress to Tensile strain or Compressive stress to Compressive strain<br><br>E=Tensile stress/Tensile Strain or <br><br> E=Compressive stress/Compressive strain</p>
+<p><ins>Rigidity modulus</ins> means Shear stress to shear strain <br><br> G=Shear stress/Shear strain</p>
+<h2>1.6. Factor of Saftey</h2>
+<p>It is defined as ratio of Ultimate stress to permissible stress <br> FS=Ultimate Stress/Permissible Stress. <br> FS=Factor of Saftey</p>
+<h2>1.7. Poisson's Ratio</h2>
+<p>It is defined as Lateral Strain to Longitudinal Strain and is denoted by '&micro;' <br> &micro=Lateral Strain/Longitudinal Strain</p>
+<p><ins>Longitudinal strain</ins> means strain along the direction of force. <br><ins>Lateral Strain</ins> means strain at right angles to load direction</p>
+<p>Example :- When a tensile load is applied on a block its length increases and diameter decreases, here <br> Longitudinal strain= Increase in length/Original Length <br>Lateral Strain=Decrease in Diameter/Original Diameter</p>
+<a href="https://www.engineeringtoolbox.com/factors-safety-fos-d_1624.html" target="_blank">Click on this to read more about FOS</a>
+
+</body>
+</html>
